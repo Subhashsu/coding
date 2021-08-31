@@ -31,6 +31,7 @@ NumPy provides tools to help build multi-dimensional arrays and perform calculat
 While NumPy is a valuable Python package for a variety of general-purpose programming tasks, it’s particularly important if you want to do machine learning, since it provides part of the foundation for libraries like TensorFlow.
 
 2 Pendulum
+
 If you have at least a little Python programming experience, you probably know that you can use the datetime module to manage dates and times within an application.
 
 While datetime is great for basic work along these lines, the Pendulum Python package makes it easier to do more complex coding involving dates and times. It’s more intuitive to work with, and it manages time zones automatically.
@@ -56,6 +57,8 @@ MoviePy is to videos what Pillow is to images. It provides a range of functional
 Like Pillow, MoviePy is not intended as a tool for advanced data manipulation. If you’re writing a video editing app, you’ll probably also need to rely on OpenCV (which can work with videos as well as images) to provide the advanced functionality that MoviePy lacks. But for most standard tasks involving videos in Python code, MoviePy gets the job done quite well.
 
 5 Requests
+
+
 Writing code that sends HTTP requests can be tricky, due in no small part to the fact that HTTP does not exactly format data in a way that is easy for humans to read.
 
 The Requests Python package (motto: “HTTP for Humans”) tackles this problem by automating many of the tedious tasks that you would otherwise need to perform in order to send HTTP requests from your application. It removes the need to add query strings, or do POST form encoding. It also keeps connections with HTTP servers alive automatically, eliminating the need to write a bunch of code for doing that.
@@ -63,6 +66,7 @@ The Requests Python package (motto: “HTTP for Humans”) tackles this problem 
 In short, if your application sends any data over HTTP, Requests is a must-have package.
 
 6 Tkinter
+
 Want to develop a Python app with a Graphical User Interface (GUI)? There are a variety of packages designed to help you do that (indeed, we could make a top ten list of just Python GUI packages). But I think most Python developers would agree that Tkinter is the most important — and most commonly used — framework for creating GUIs. It binds Python to the TK GUI toolkit, which works on virtually every modern operating system.
 
 Unless you have a strong preference for a different GUI toolkit, Tkinter is probably the best place to start when creating a Python GUI.
